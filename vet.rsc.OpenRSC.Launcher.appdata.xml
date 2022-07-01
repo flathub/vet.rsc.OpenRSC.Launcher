@@ -4,7 +4,7 @@
     <launchable type="desktop-id">vet.rsc.OpenRSC.Launcher.desktop</launchable>
     <name>OpenRSC</name>
     <developer_name>OpenRSC</developer_name>
-    <summary>OpenRSC Client</summary>
+    <summary>Launcher for Open RuneScape Classic Servers</summary>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>AGPL-3.0-or-later</project_license>
     <url type="homepage">https://rsc.vet/</url>
