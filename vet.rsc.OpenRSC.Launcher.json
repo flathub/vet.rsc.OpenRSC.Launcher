@@ -37,7 +37,7 @@
                     "type": "script",
                     "dest-filename": "openrsc",
                     "commands": [
-                          "exec java -jar /app/share/OpenRSC.jar --dir ~/.var/app/vet.rsc.OpenRSC.Launcher/ \"$@\""
+                          "exec java -jar /app/share/OpenRSC.jar --dir ~/.var/app/vet.rsc.OpenRSC.Launcher/ --no-update \"$@\""
                     ]
                 },
                 {
