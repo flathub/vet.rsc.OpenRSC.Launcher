@@ -1,4 +1,4 @@
 # OpenRSC Flatpak
 
-This is a Flatpak build of the [OpenRSC](https://rsc.vet/) client for Open RuneScape Classic.
+Flatpak release of the [OpenRSC launcher](https://gitlab.com/open-runescape-classic/core/-/tree/develop/PC_Launcher?ref_type=heads) for [Open RuneScape Classic](https://rsc.vet/).
 
