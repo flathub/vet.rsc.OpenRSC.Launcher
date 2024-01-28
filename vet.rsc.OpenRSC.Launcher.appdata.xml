@@ -10,20 +10,38 @@
   <url type="homepage">https://rsc.vet/</url>
 
   <description>
-    <p>OpenRSC is a free, open-source launcher for various Runescape Classic (2001-2004) servers</p>
+    <p>OpenRSC an open-source launcher for various Runescape Classic (2001-2004) servers</p>
   </description>
 
   <screenshots>
-    <screenshot type="default">https://i.imgur.com/TlKphGZ.png</screenshot>
-    <screenshot>https://i.imgur.com/IqcMv6I.png</screenshot>
-    <screenshot>https://i.imgur.com/lpGpIFh.png</screenshot>
-    <screenshot>https://i.imgur.com/Qof4b44.png</screenshot>
-    <screenshot>https://i.imgur.com/85yPwXC.png</screenshot>
-    <screenshot>https://i.imgur.com/0Qv2h52.png</screenshot>
+    <screenshot type="default">
+      <image>https://i.imgur.com/TlKphGZ.png</image>
+      <caption>Runescape Classic Login Screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://i.imgur.com/IqcMv6I.png</image>
+      <caption>Runescape Classic Draynor Village</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://i.imgur.com/lpGpIFh.png</image>
+      <caption>Runescape Classic Ardougne (on fire)</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://i.imgur.com/Qof4b44.png</image>
+      <caption>User levels up Cooking</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://i.imgur.com/85yPwXC.png</image>
+      <caption>Drop Party Event</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://i.imgur.com/0Qv2h52.png</image>
+      <caption>80 Ranged celebration</caption>
+    </screenshot>
   </screenshots>
 
   <releases>
-    <release version="20241028" date="20241028">
+    <release version="20241028" date="2024-10-28">
       <description>
         <p>Improved auto-updater on custom clients</p>
         <p>Change default Uranium client to APOS</p>
