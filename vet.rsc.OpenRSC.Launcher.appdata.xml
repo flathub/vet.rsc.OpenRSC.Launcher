@@ -1,41 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-    <id>vet.rsc.OpenRSC.Launcher</id>
-    <launchable type="desktop-id">vet.rsc.OpenRSC.Launcher.desktop</launchable>
-    <name>OpenRSC</name>
-    <developer_name>OpenRSC</developer_name>
-    <summary>Launcher for Open RuneScape Classic Servers</summary>
-    <metadata_license>CC0-1.0</metadata_license>
-    <project_license>AGPL-3.0-or-later</project_license>
-    <url type="homepage">https://rsc.vet/</url>
+  <id>vet.rsc.OpenRSC.Launcher</id>
+  <launchable type="desktop-id">vet.rsc.OpenRSC.Launcher.desktop</launchable>
+  <name>OpenRSC</name>
+  <developer_name>OpenRSC</developer_name>
+  <summary>Launcher for Open RuneScape Classic Servers</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-or-later</project_license>
+  <url type="homepage">https://rsc.vet/</url>
 
-    <description>
-        <p>OpenRSC is a free, open-source launcher for various Runescape Classic (2001-2004) servers</p>
-    </description>
+  <description>
+    <p>OpenRSC is a free, open-source launcher for various Runescape Classic (2001-2004) servers</p>
+  </description>
 
-    <screenshots>
-      <screenshot type="default">https://i.imgur.com/TlKphGZ.png</screenshot>
-	    <screenshot>https://i.imgur.com/IqcMv6I.png</screenshot>
-	    <screenshot>https://i.imgur.com/lpGpIFh.png</screenshot>
-	    <screenshot>https://i.imgur.com/Qof4b44.png</screenshot>
-	    <screenshot>https://i.imgur.com/85yPwXC.png</screenshot>
-	    <screenshot>https://i.imgur.com/0Qv2h52.png</screenshot>
-    </screenshots>
+  <screenshots>
+    <screenshot type="default">https://i.imgur.com/TlKphGZ.png</screenshot>
+    <screenshot>https://i.imgur.com/IqcMv6I.png</screenshot>
+    <screenshot>https://i.imgur.com/lpGpIFh.png</screenshot>
+    <screenshot>https://i.imgur.com/Qof4b44.png</screenshot>
+    <screenshot>https://i.imgur.com/85yPwXC.png</screenshot>
+    <screenshot>https://i.imgur.com/0Qv2h52.png</screenshot>
+  </screenshots>
 
-    <releases>
-        <release version="20220311" date="2022-03-11"></release>
-    </releases>
+  <releases>
+    <release version="20241028" date="20241028">
+      <description>
+        <p>Improved auto-updater on custom clients</p>
+        <p>Change default Uranium client to APOS</p>
+        <p>Fix links so they all point to rsc.vet</p>
+        <p>Update some server ports</p>
+        <p>Improve settings and general launcher UX</p>
+        <p>Remove update prompt for Flatpak installs</p>
+      </description>
+    </release>
+    <release version="20220311" date="2022-03-11">
+      <description>
+        <p>Initial Flatpak Launcher release</p>
+        <p>Add .svg for app icon</p>
+        <p>Add --dir flag to launcher for Flatpak container compatibility</p>
+        <p></p>
+      </description>
+    </release>
+  </releases>
 
-    <content_rating type="oars-1.1">
-      <content_attribute id="violence-cartoon">moderate</content_attribute>
-      <content_attribute id="violence-fantasy">moderate</content_attribute>
-      <content_attribute id="violence-bloodshed">mild</content_attribute>
-      <content_attribute id="violence-desecration">moderate</content_attribute>
-      <content_attribute id="violence-slavery">mild</content_attribute>
-      <content_attribute id="drugs-alcohol">moderate</content_attribute>
-      <content_attribute id="language-profanity">mild</content_attribute>
-      <content_attribute id="language-humor">mild</content_attribute>
-      <content_attribute id="social-chat">moderate</content_attribute>
-      <content_attribute id="money-gambling">moderate</content_attribute>
-    </content_rating>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">moderate</content_attribute>
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+    <content_attribute id="violence-bloodshed">mild</content_attribute>
+    <content_attribute id="violence-desecration">moderate</content_attribute>
+    <content_attribute id="violence-slavery">mild</content_attribute>
+    <content_attribute id="drugs-alcohol">moderate</content_attribute>
+    <content_attribute id="language-profanity">mild</content_attribute>
+    <content_attribute id="language-humor">mild</content_attribute>
+    <content_attribute id="social-chat">moderate</content_attribute>
+    <content_attribute id="money-gambling">moderate</content_attribute>
+  </content_rating>
 </component>
