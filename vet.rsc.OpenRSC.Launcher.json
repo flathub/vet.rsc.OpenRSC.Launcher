@@ -1,7 +1,7 @@
 {
     "id": "vet.rsc.OpenRSC.Launcher",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "openrsc",
     "separate-locales": false,
@@ -42,8 +42,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://rsc.vet/downloads/OpenRSC.jar",
-                    "sha256": "996ca435f5aa27fb72510baef8052f0dd88b71a60f4c6ed1cef49790619127af"
+                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6037074602/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "c0a840accf20ccb877562919810c71af54fb154c681566c646b4db7f83535747",
+                    "dest-filename": "OpenRSC.jar",
+                    "x-checker-data": {
+                        "type": "rotating-url",
+                        "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/OpenRSC.jar?job=launcherUpload"
+                    }
                 },
                 {
                     "type": "file",
