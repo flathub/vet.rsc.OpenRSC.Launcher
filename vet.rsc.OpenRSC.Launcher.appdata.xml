@@ -3,7 +3,9 @@
   <id>vet.rsc.OpenRSC.Launcher</id>
   <launchable type="desktop-id">vet.rsc.OpenRSC.Launcher.desktop</launchable>
   <name>OpenRSC</name>
-  <developer_name>OpenRSC</developer_name>
+  <developer>
+    <name>OpenRSC</name>
+  </developer>
   <summary>Launcher for Open RuneScape Classic Servers</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-or-later</project_license>
@@ -56,7 +58,6 @@
         <p>Initial Flatpak Launcher release</p>
         <p>Add .svg for app icon</p>
         <p>Add --dir flag to launcher for Flatpak container compatibility</p>
-        <p></p>
       </description>
     </release>
   </releases>
