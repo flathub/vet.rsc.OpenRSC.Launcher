@@ -20,7 +20,9 @@
         {
             "name": "openjdk",
             "buildsystem": "simple",
-            "build-commands" : [ "/usr/lib/sdk/openjdk17/install.sh" ]
+            "build-commands": [
+                "/usr/lib/sdk/openjdk17/install.sh"
+            ]
         },
         {
             "name": "openrsc",
@@ -37,13 +39,13 @@
                     "type": "script",
                     "dest-filename": "openrsc",
                     "commands": [
-                          "exec java -jar /app/share/OpenRSC.jar --dir ~/.var/app/vet.rsc.OpenRSC.Launcher/ --no-update \"$@\""
+                        "exec java -jar /app/share/OpenRSC.jar --dir ~/.var/app/vet.rsc.OpenRSC.Launcher/ --no-update \"$@\""
                     ]
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6037074602/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "c0a840accf20ccb877562919810c71af54fb154c681566c646b4db7f83535747",
+                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6038642133/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "6dce4cbdaeee8701aeffe70d1bb20c1d4b45cc078ef27ef590bdfe7f997677eb",
                     "dest-filename": "OpenRSC.jar",
                     "x-checker-data": {
                         "type": "rotating-url",
