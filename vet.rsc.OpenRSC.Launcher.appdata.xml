@@ -43,7 +43,7 @@
   </screenshots>
 
   <releases>
-    <release version="20241028" date="2024-10-28">
+    <release version="20241028" date="2024-10-27">
       <description>
         <p>Improved auto-updater on custom clients</p>
         <p>Change default Uranium client to APOS</p>
