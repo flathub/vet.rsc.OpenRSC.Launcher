@@ -1,70 +1,72 @@
 {
-    "id": "vet.rsc.OpenRSC.Launcher",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
-    "sdk": "org.freedesktop.Sdk",
-    "command": "openrsc",
-    "separate-locales": false,
-    "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk17"
-    ],
-    "finish-args": [
-        "--share=network",
-        "--socket=x11",
-        "--share=ipc",
-        "--device=dri",
-        "--socket=pulseaudio",
-        "--env=PATH=/usr/bin:/app/bin:/app/jre/bin"
-    ],
-    "modules": [
+  "id": "vet.rsc.OpenRSC.Launcher",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "23.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "openrsc",
+  "separate-locales": false,
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk17"],
+  "finish-args": [
+    "--share=network",
+    "--socket=x11",
+    "--share=ipc",
+    "--device=dri",
+    "--socket=pulseaudio",
+    "--env=PATH=/usr/bin:/app/bin:/app/jre/bin"
+  ],
+  "modules": [
+    {
+      "name": "openjdk",
+      "buildsystem": "simple",
+      "build-commands": ["/usr/lib/sdk/openjdk17/install.sh"]
+    },
+    {
+      "name": "openrsc",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -D openrsc /app/bin/openrsc",
+        "install -D OpenRSC.jar /app/share/OpenRSC.jar",
+        "install -Dm644 vet.rsc.OpenRSC.Launcher.svg /app/share/icons/hicolor/scalable/apps/vet.rsc.OpenRSC.Launcher.svg",
+        "install -Dm644 vet.rsc.OpenRSC.Launcher.desktop /app/share/applications/vet.rsc.OpenRSC.Launcher.desktop",
+        "install -Dm644 vet.rsc.OpenRSC.Launcher.appdata.xml /app/share/appdata/vet.rsc.OpenRSC.Launcher.appdata.xml"
+      ],
+      "sources": [
         {
-            "name": "openjdk",
-            "buildsystem": "simple",
-            "build-commands": [
-                "/usr/lib/sdk/openjdk17/install.sh"
-            ]
+          "type": "script",
+          "dest-filename": "openrsc",
+          "commands": [
+            "exec java -jar /app/share/OpenRSC.jar --dir ~/.var/app/vet.rsc.OpenRSC.Launcher/ --no-update \"$@\""
+          ]
         },
         {
-            "name": "openrsc",
-            "buildsystem": "simple",
-            "build-commands": [
-                "install -D openrsc /app/bin/openrsc",
-                "install -D OpenRSC.jar /app/share/OpenRSC.jar",
-                "install -Dm644 vet.rsc.OpenRSC.Launcher.svg /app/share/icons/hicolor/scalable/apps/vet.rsc.OpenRSC.Launcher.svg",
-                "install -Dm644 vet.rsc.OpenRSC.Launcher.desktop /app/share/applications/vet.rsc.OpenRSC.Launcher.desktop",
-                "install -Dm644 vet.rsc.OpenRSC.Launcher.appdata.xml /app/share/appdata/vet.rsc.OpenRSC.Launcher.appdata.xml"
-            ],
-            "sources": [
-                {
-                    "type": "script",
-                    "dest-filename": "openrsc",
-                    "commands": [
-                        "exec java -jar /app/share/OpenRSC.jar --dir ~/.var/app/vet.rsc.OpenRSC.Launcher/ --no-update \"$@\""
-                    ]
-                },
-                {
-                    "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6040119305/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "d7b0c1b753148ba417d179967fecc94f1d498c31bbf9d1620ec5c8be36d5dc0f",
-                    "dest-filename": "OpenRSC.jar",
-                    "x-checker-data": {
-                        "type": "rotating-url",
-                        "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/OpenRSC.jar?job=launcherUpload"
-                    }
-                },
-                {
-                    "type": "file",
-                    "path": "vet.rsc.OpenRSC.Launcher.svg"
-                },
-                {
-                    "type": "file",
-                    "path": "vet.rsc.OpenRSC.Launcher.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "vet.rsc.OpenRSC.Launcher.appdata.xml"
-                }
-            ]
+          "type": "file",
+          "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6040119305/artifacts/raw/PC_Launcher/OpenRSC.jar",
+          "sha256": "d7b0c1b753148ba417d179967fecc94f1d498c31bbf9d1620ec5c8be36d5dc0f",
+          "dest-filename": "OpenRSC.jar",
+          "x-checker-data": {
+            "type": "rotating-url",
+            "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/OpenRSC.jar?job=launcherUpload"
+          }
+        },
+        {
+          "type": "file",
+          "path": "vet.rsc.OpenRSC.Launcher.svg"
+        },
+        {
+          "type": "file",
+          "path": "vet.rsc.OpenRSC.Launcher.desktop"
+        },
+        {
+          "type": "file",
+          "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6040654554/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
+          "sha256": "539801afada648478cc959c3c10759532c5060e4fd772cc92cab674a88639821",
+          "dest-filename": "vet.rsc.OpenRSC.Launcher.appdata.xml",
+          "x-checker-data": {
+            "type": "rotating-url",
+            "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml?job=launcherUpload"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
