@@ -62,7 +62,14 @@
                 },
                 {
                     "type": "file",
-                    "path": "vet.rsc.OpenRSC.Launcher.appdata.xml"
+                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6040119305/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
+                    "sha256": "51ae11332b38b5f6f2b4cc647e3d3180295cad7d08c3840406a005c80680ea47",
+                    "dest-filename": "vet.rsc.OpenRSC.Launcher.appdata.xml",
+                    "x-checker-data": {
+                        "type": "rotating-url",
+                        "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml?job=launcherUpload"
+                    }
+                },
                 }
             ]
         }
