@@ -44,8 +44,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6038642133/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "6dce4cbdaeee8701aeffe70d1bb20c1d4b45cc078ef27ef590bdfe7f997677eb",
+                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6039381047/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "e1c3e25d8f890f2fc807f9f9e7ce1fc2158b26038999a2de8f42c870e4e7b793",
                     "dest-filename": "OpenRSC.jar",
                     "x-checker-data": {
                         "type": "rotating-url",
