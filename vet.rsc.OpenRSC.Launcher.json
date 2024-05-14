@@ -44,8 +44,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6801016420/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "b218d5e1bd8ee2b5c1cd5938739fd01169aa3593c52c0ada92835e42eb0f7478",
+                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6844223618/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "4d4aa371b718cb18c737c302c1988ade2d77def2ab76b196dc3f54f50740668f",
                     "dest-filename": "OpenRSC.jar",
                     "x-checker-data": {
                         "type": "rotating-url",
@@ -62,7 +62,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6801016420/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
+                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/6844223618/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
                     "sha256": "8c3a2e912cf0b304f4215eba51ee9418cfbcbe5711bda04344eab2f8f367cea6",
                     "dest-filename": "vet.rsc.OpenRSC.Launcher.appdata.xml",
                     "x-checker-data": {
