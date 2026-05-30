@@ -1,7 +1,7 @@
 {
     "id": "vet.rsc.OpenRSC.Launcher",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "openrsc",
     "separate-locales": false,
@@ -44,12 +44,12 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/7107955574/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "3584776d95ba9d31b1d3da5372aadbab70a6644ebd4db5348664dde22fb6e6aa",
+                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/13880768615/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "0fc0970581ed29076081ff53537b07eeae66f288b869e1b6b26f32092125785e",
                     "dest-filename": "OpenRSC.jar",
                     "x-checker-data": {
                         "type": "rotating-url",
-                        "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/OpenRSC.jar?job=launcherUpload"
+                        "url": "https://gitlab.com/openrsc/openrsc/-/jobs/artifacts/develop/raw/PC_Launcher/OpenRSC.jar?job=launcherUpload"
                     }
                 },
                 {
@@ -62,12 +62,12 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/7107955574/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
+                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/13880768615/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
                     "sha256": "8c3a2e912cf0b304f4215eba51ee9418cfbcbe5711bda04344eab2f8f367cea6",
                     "dest-filename": "vet.rsc.OpenRSC.Launcher.appdata.xml",
                     "x-checker-data": {
                         "type": "rotating-url",
-                        "url": "https://gitlab.com/open-runescape-classic/core/-/jobs/artifacts/develop/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml?job=launcherUpload"
+                        "url": "https://gitlab.com/openrsc/openrsc/-/jobs/artifacts/develop/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml?job=launcherUpload"
                     }
                 }
             ]
