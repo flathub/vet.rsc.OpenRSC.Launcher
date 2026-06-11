@@ -44,8 +44,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/13880768615/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "0fc0970581ed29076081ff53537b07eeae66f288b869e1b6b26f32092125785e",
+                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/14795400285/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "a5bd56aa9c9b7575673086d20682133bd3f20a6330cc3ee6b328fe65cea95f40",
                     "dest-filename": "OpenRSC.jar",
                     "x-checker-data": {
                         "type": "rotating-url",
