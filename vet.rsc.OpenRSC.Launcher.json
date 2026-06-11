@@ -30,9 +30,9 @@
             "build-commands": [
                 "install -D openrsc /app/bin/openrsc",
                 "install -D OpenRSC.jar /app/share/OpenRSC.jar",
-                "install -Dm644 vet.rsc.OpenRSC.Launcher.svg /app/share/icons/hicolor/scalable/apps/vet.rsc.OpenRSC.Launcher.svg",
-                "install -Dm644 vet.rsc.OpenRSC.Launcher.desktop /app/share/applications/vet.rsc.OpenRSC.Launcher.desktop",
-                "install -Dm644 vet.rsc.OpenRSC.Launcher.appdata.xml /app/share/appdata/vet.rsc.OpenRSC.Launcher.appdata.xml"
+                "install -Dm644 ${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
+                "install -Dm644 ${FLATPAK_ID}.desktop -t /app/share/applications/",
+                "install -Dm644 ${FLATPAK_ID}.appdata.xml -t /app/share/metainfo/"
             ],
             "sources": [
                 {
@@ -44,8 +44,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/13880768615/artifacts/raw/PC_Launcher/OpenRSC.jar",
-                    "sha256": "0fc0970581ed29076081ff53537b07eeae66f288b869e1b6b26f32092125785e",
+                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/14795400285/artifacts/raw/PC_Launcher/OpenRSC.jar",
+                    "sha256": "a5bd56aa9c9b7575673086d20682133bd3f20a6330cc3ee6b328fe65cea95f40",
                     "dest-filename": "OpenRSC.jar",
                     "x-checker-data": {
                         "type": "rotating-url",
@@ -62,13 +62,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/openrsc/openrsc/-/jobs/13880768615/artifacts/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml",
-                    "sha256": "8c3a2e912cf0b304f4215eba51ee9418cfbcbe5711bda04344eab2f8f367cea6",
-                    "dest-filename": "vet.rsc.OpenRSC.Launcher.appdata.xml",
-                    "x-checker-data": {
-                        "type": "rotating-url",
-                        "url": "https://gitlab.com/openrsc/openrsc/-/jobs/artifacts/develop/raw/PC_Launcher/vet.rsc.OpenRSC.Launcher.appdata.xml?job=launcherUpload"
-                    }
+                    "path": "vet.rsc.OpenRSC.Launcher.appdata.xml"
                 }
             ]
         }
